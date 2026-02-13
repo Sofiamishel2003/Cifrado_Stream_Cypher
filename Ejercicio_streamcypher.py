@@ -8,7 +8,13 @@ def keystream_rand(size, seed):
     for i in range(size):
         key.append(random.randint(0, 255))
     return bytes(key)
-def encrypt(plaintext, keystream):
+def encrypt(plaintext, seed):
+    # validación de que si viene en string, lo pasa a bytes
+    if isinstance(plaintext, str):
+        plaintext = plaintext.encode("utf-8")
+    # Genera ek keystream del mismo tamaño
+    keystream = keystream_rand(len(plaintext), seed)
+    # Aplicarle el verdadero XOR
     ciphertext = []
     for i in range(len(plaintext)):
         ciphertext.append(plaintext[i] ^ keystream[i])
@@ -19,6 +25,7 @@ def decrypt(ciphertext, keystream):
         plaintext.append(ciphertext[i] ^ keystream[i])
     return bytes(plaintext)
 
+# Le pedí a chatGPT que me haga un menú interactivo porque noo quería hacerlo, no me fune pls
 def menu():
     while True:
         print("\n=== STREAM CIPHER XOR (Demo) ===")
