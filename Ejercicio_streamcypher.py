@@ -19,11 +19,14 @@ def encrypt(plaintext, seed):
     for i in range(len(plaintext)):
         ciphertext.append(plaintext[i] ^ keystream[i])
     return bytes(ciphertext)
-def decrypt(ciphertext, keystream):
+def decrypt(ciphertext, seed):
+    # Re generar el mismo keystream con la seed
+    keystream = keystream_rand(len(ciphertext), seed)
+    # Y dale de nuevo con el XOR para decifrarlo
     plaintext = []
     for i in range(len(ciphertext)):
         plaintext.append(ciphertext[i] ^ keystream[i])
-    return bytes(plaintext)
+    return bytes(plaintext).decode("utf-8")
 
 # Le pedí a chatGPT que me haga un menú interactivo porque noo quería hacerlo, no me fune pls
 def menu():
