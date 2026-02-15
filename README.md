@@ -43,7 +43,10 @@ O directamente:
 ```powershell
 C:/Users/50250/AppData/Local/Microsoft/WindowsApps/python3.10.exe "Ejercicio_streamcypher.py"
 ```
-
+4. Para correr los tests
+ ```powershell
+python -m unittest test_streamcipher.py -v
+```
 ---
 
 ## 📋 Menú Interactivo
@@ -162,34 +165,6 @@ Descifrado:
 ```
 Hola Mundo
 ```
-
----
-
-# 🔐 Funcionamiento Técnico
-
-El cifrado se basa en:
-
-```
-Ciphertext = Plaintext XOR Keystream
-```
-
-Y el descifrado en:
-
-```
-Plaintext = Ciphertext XOR Keystream
-```
-
-La propiedad fundamental utilizada es:
-
-```
-A XOR B XOR B = A
-```
-
-Por eso el mismo keystream debe regenerarse usando la misma seed.
-
----
-
-Aquí tienes la sección completa lista para copiar y pegar en tu README, incluyendo exactamente los ejemplos que mostraste.
 
 ---
 
