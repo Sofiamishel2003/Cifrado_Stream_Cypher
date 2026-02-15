@@ -1,0 +1,80 @@
+PS C:\Users\50250\Desktop\Sofía Mishell Velásquez UVG\Quinto año\Primer Semestre\Cifrado\Cifrado_Stream_Cypher> & C:/Users/50250/AppData/Local/Microsoft/WindowsApps/python3.10.exe "c:/Users/50250/Desktop/Sofía Mishell Velásquez UVG/Quinto año/Primer Semestre/Cifrado/Cifrado_Stream_Cypher/Ejercicio_streamcypher.py"
+
+=== STREAM CIPHER XOR (Demo) ===
+1) Generar keystream (hex)
+2) Cifrar texto
+3) Descifrar ciphertext (desde hex)
+4) Demo rápida (Hola Mundo)
+0) Salir
+Elige una opción: 2
+Texto a cifrar: Por la mañana café
+Seed/clave (entero): 39853
+Ciphertext (hex): 870ad2bfec96b9ad6f2b834715f2a35038dbcb61
+Ciphertext (bytes): b'\x87\n\xd2\xbf\xec\x96\xb9\xado+\x83G\x15\xf2\xa3P8\xdb\xcba'
+
+=== STREAM CIPHER XOR (Demo) ===
+1) Generar keystream (hex)
+2) Cifrar texto
+3) Descifrar ciphertext (desde hex)
+4) Demo rápida (Hola Mundo)
+0) Salir
+Elige una opción: 3
+Ciphertext en hex (ej: 0a1b...): 870ad2bfec96b9ad6f2b834715f2a35038dbcb61
+Seed/clave (entero): 39853
+Texto descifrado: Por la mañana café
+
+=== STREAM CIPHER XOR (Demo) ===
+1) Generar keystream (hex)
+2) Cifrar texto
+3) Descifrar ciphertext (desde hex)
+4) Demo rápida (Hola Mundo)
+0) Salir
+Elige una opción: 2    
+Texto a cifrar: Por la tarde Ron
+Seed/clave (entero): 898
+Ciphertext (hex): 862f5b83609352672b8e49f298129354
+Ciphertext (bytes): b'\x86/[\x83`\x93Rg+\x8eI\xf2\x98\x12\x93T'
+
+=== STREAM CIPHER XOR (Demo) ===
+1) Generar keystream (hex)
+2) Cifrar texto
+3) Descifrar ciphertext (desde hex)
+4) Demo rápida (Hola Mundo)
+0) Salir
+Elige una opción: 3
+Ciphertext en hex (ej: 0a1b...): 862f5b83609352672b8e49f298129354
+Seed/clave (entero): 898
+Texto descifrado: Por la tarde Ron
+
+=== STREAM CIPHER XOR (Demo) ===
+1) Generar keystream (hex)
+2) Cifrar texto
+3) Descifrar ciphertext (desde hex)
+4) Demo rápida (Hola Mundo)
+0) Salir
+Elige una opción: 2
+Texto a cifrar: Ya estamo en la calle, sal de tu balcón
+Seed/clave (entero): 120
+Ciphertext (hex): 2701cc4bd21913edcb9f375982f520b0f1f4030d5ef54a156e5c2281a1eaabb1e24e6363aa742703
+Ciphertext (bytes): b'\'\x01\xccK\xd2\x19\x13\xed\xcb\x9f7Y\x82\xf5 \xb0\xf1\xf4\x03\r^\xf5J\x15n\\"\x81\xa1\xea\xab\xb1\xe2Ncc\xaat\'\x03'
+
+=== STREAM CIPHER XOR (Demo) ===
+1) Generar keystream (hex)
+2) Cifrar texto
+3) Descifrar ciphertext (desde hex)
+4) Demo rápida (Hola Mundo)
+0) Salir
+Elige una opción: 3
+Ciphertext en hex (ej: 0a1b...): 2701cc4bd21913edcb9f375982f520b0f1f4030d5ef54a156e5c2281a1eaabb1e24e6363aa742703
+Seed/clave (entero): 120
+Texto descifrado: Ya estamo en la calle, sal de tu balcón
+
+=== STREAM CIPHER XOR (Demo) ===
+1) Generar keystream (hex)
+2) Cifrar texto
+3) Descifrar ciphertext (desde hex)
+4) Demo rápida (Hola Mundo)
+0) Salir
+Elige una opción: 0
+Saliendo...
+PS C:\Users\50250\Desktop\Sofía Mishell Velásquez UVG\Quinto año\Primer Semestre\Cifrado\Cifrado_Stream_Cypher> 

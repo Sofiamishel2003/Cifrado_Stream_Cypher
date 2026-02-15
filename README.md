@@ -282,3 +282,92 @@ En un entorno de producción real, se deben considerar varios aspectos críticos
 2. Protección de la clave: La seed no debe estar hardcodeada ni expuesta en el código fuente. Debe manejarse mediante mecanismos seguros de almacenamiento.
 
 3. Manejo seguro entre receptor y emisor: la manera en que se compartan las claves entre ellos para poder leer y envíar mensajes entre ambos debe de ser muy segura para no exponer cómo se cifran los datos y poder tener una comunicación segura.
+Aquí tienes la sección lista para copiar y pegar en tu README.
+
+---
+
+# Parte 3 – Validación y Ejemplos de Entrada/Salida
+
+A continuación se presentan tres ejemplos completos de ejecución del programa, mostrando texto plano original, texto cifrado en formato hexadecimal, texto descifrado y la clave utilizada.
+
+---
+
+## 🔹 Ejemplo 1
+
+**Texto plano original:**
+
+```
+Por la mañana café
+```
+
+**Clave utilizada:**
+
+```
+39853
+```
+
+**Texto cifrado (hexadecimal):**
+
+```
+870ad2bfec96b9ad6f2b834715f2a35038dbcb61
+```
+
+**Texto descifrado:**
+
+```
+Por la mañana café
+```
+---
+
+## 🔹 Ejemplo 2
+
+**Texto plano original:**
+
+```
+Por la tarde Ron
+```
+
+**Clave utilizada:**
+
+```
+898
+```
+
+**Texto cifrado (hexadecimal):**
+
+```
+862f5b83609352672b8e49f298129354
+```
+
+**Texto descifrado:**
+
+```
+Por la tarde Ron
+```
+---
+
+## 🔹 Ejemplo 3
+
+**Texto plano original:**
+
+```
+Ya estamo en la calle, sal de tu balcón
+```
+
+**Clave utilizada:**
+
+```
+120
+```
+
+**Texto cifrado (hexadecimal):**
+
+```
+2701cc4bd21913edcb9f375982f520b0f1f4030d5ef54a156e5c2281a1eaabb1e24e6363aa742703
+```
+
+**Texto descifrado:**
+
+```
+Ya estamo en la calle, sal de tu balcón
+```
